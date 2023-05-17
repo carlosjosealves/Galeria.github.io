@@ -15,6 +15,11 @@
      height: 300px;
  }
 
+ .principal {
+     justify-content: center;
+     align-items: center;
+ }
+
  .fotos {
 
      margin-left: 120px;
@@ -62,4 +67,14 @@
 
  footer img {
      width: 20%;
+ }
+
+ @media screen and (max-width: 480px) {
+     .galeria {
+         display: block;
+     }
+
+     body {
+         background: #000000;
+     }
  }
