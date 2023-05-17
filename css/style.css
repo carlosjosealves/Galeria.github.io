@@ -16,12 +16,11 @@
  }
 
  .principal {
-     justify-content: center;
-     align-items: center;
+     position: relative;
  }
 
  .fotos {
-
+     display: inline;
      margin-left: 120px;
      border-radius: 180px;
      width: 20%;
@@ -46,7 +45,7 @@
  }
 
  .galeria {
-     margin-left: 120px;
+     margin-left: 200px;
      margin-bottom: 50px;
  }
 
@@ -67,14 +66,4 @@
 
  footer img {
      width: 20%;
- }
-
- @media screen and (max-width: 480px) {
-     .galeria {
-         display: block;
-     }
-
-     body {
-         background: #000000;
-     }
  }
